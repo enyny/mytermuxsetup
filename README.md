@@ -13,7 +13,7 @@ For use wrote this commands one (line) by one (line) :
 
  git clone https://github.com/Warpinguin/MyTermuxMustHave.git
 
- cd MyTermuxMustHave
+ cd mytermuxsetup
 
  chmod +x my_script.sh
  
