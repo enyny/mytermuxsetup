@@ -7,8 +7,24 @@ But if it gonna be usefull for any1 else Ill be just glad :)
 
 For use wrote this commands one (line) by one (line) :
 
-pkg update && pkg upgrade -y && pkg install git && git clone https://github.com/enymy/mytermuxsetup.git && cd mytermuxsetup && chmod +x my_script.sh && termux-fix-shebang *.sh && bash my_script.sh
+pkg update
+
+pkg upgrade -y
+
+pkg install git
+
+git clone https://github.com/enymy/mytermuxsetup.git
+
+cd mytermuxsetup
+
+chmod +x .sh
+
+termux-fix-shebang *.sh
+
+bash my_script.sh
 
 fish
 
-cd mytermuxsetup && bash my_script1.sh
+cd mytermuxsetup
+
+bash my_script1.sh
