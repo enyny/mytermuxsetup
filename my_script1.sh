@@ -2,7 +2,7 @@
 
 echo \"Zacatek / Start\" 
 
-mkdir $HOME/bin
+mkdir -p $HOME/bin
 
 ln -s $HOME/git/mytermuxsetup/my-termux-url-opener $HOME/bin/termux-url-opener
 
