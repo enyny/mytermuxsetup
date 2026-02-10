@@ -2,31 +2,7 @@
 
 echo \"Zacatek / Start\" 
 
-mkdir -p $HOME/bin
-
-ln -s $HOME/git/mytermuxsetup/my-termux-url-opener $HOME/bin/termux-url-opener
-
-ln -s $HOME/git/mytermuxsetup/my-termux-url-opener $HOME/bin/termux-file-editor
-
 fish_add_path bin/ 
-
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-
-pip install -U --pre "yt-dlp[default,curl-cffi]" gallery-dl pywidevine pip-autoremove
-
-pip cache purge
-
-dos2unix $HOME/bin/*
-
-chmod +x $HOME/bin/*
-
-export CARGO_BUILD_TARGET=aarch64-linux-android
-
-export ANDROID_API_LEVEL=34
-
-pip install pyplayready
-
-pip cache purge
 
 fisher install IlanCosman/tide@v6 
 
